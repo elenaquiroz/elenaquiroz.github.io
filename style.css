@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Kavoon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Chela+One&family=Kavoon&display=swap');
+
+
+header img {
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: blueviolet;
+}
+
+iframe {
+    width: 400px;
+    height: 200px;
+    margin-left: 15%;
+   
+}
+
+.imagenes {
+    height: 450px;
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.galeria {
+    height: 450px;
+    background-color: rgb(204, 158, 247);
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(238, 22, 87);
+    font-family: "Kavoon", serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 45px;
+    color: rgb(255, 94, 0);
+
+    font-family: "Chela One", system-ui;
+
+}
+
+p {
+    font-size: 30px;
+    color: rgb(13, 13, 41);
+    font-family: "Autour One", system-ui;
+    text-align: justifys;
+}
+
+ul {
+    font-size: 22px;
+    color: black;
+    font-family: "Autour One", system-ui;
+    list-style: none
+}
+
+body {
+    background-color: rgb(248, 167, 237);
+
+
+
+}
+
+.mapa img {
+    border-image: 50%;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 8;
+    transition: .5s ease;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+h3 {
+    font-size: 30px;
+    color: rgb(13, 14, 11);
+
+    font-family: "Chela One", system-ui;
+    margin-left: 25%;
+    margin-top: 10%;
+}
